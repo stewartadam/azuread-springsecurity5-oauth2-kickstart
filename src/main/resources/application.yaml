@@ -1,0 +1,20 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          microsoft:
+            client-id: aad-app-clientId-guid
+            client-secret: aad-app-clientSecret-key
+            authorization-grant-type: authorization_code
+            redirect-uri-template: '{baseUrl}/login/oauth2/code/{registrationId}'
+            scope: User.Read
+            client-name: Microsoft
+            client-alias: microsoft
+        provider:
+          microsoft:
+            authorization-uri: https://login.microsoftonline.com/common/oauth2/authorize?resource=https://graph.microsoft.com/
+            token-uri: https://login.microsoftonline.com/common/oauth2/token
+            user-info-uri: https://graph.microsoft.com/v1.0/me
+            user-name-attribute: id
+            jwk-set-uri: https://login.microsoftonline.com/common/discovery/keys
