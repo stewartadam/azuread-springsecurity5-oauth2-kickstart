@@ -22,10 +22,10 @@ I found these resources helpful while troubleshooting:
 
 -   [Spring Security's OAuth2 feature matrix](https://github.com/spring-projects/spring-security/wiki/OAuth-2.0-Features-Matrix)
 -   [Spring Security 5 OAuth 2.0 Login Sample (Okta)](https://github.com/spring-projects/spring-security/tree/master/samples/boot/oauth2login#okta-login)
--   [Spring Security 5 -- OAuth2 Login](http:/www.baeldung.com/spring-security-5-oauth2-login) by Loredana Crusoveanu
--   [Overriding Spring Boot 2.0 Auto-configuration](https:/docs.spring.io/spring-security/site/docs/5.0.3.RELEASE/reference/htmlsingle#jc-oauth2login-completely-override-autoconfiguration) from Spring docs
+-   [Spring Security 5 -- OAuth2 Login](http://www.baeldung.com/spring-security-5-oauth2-login) by Loredana Crusoveanu
+-   [Overriding Spring Boot 2.0 Auto-configuration](https://docs.spring.io/spring-security/site/docs/5.0.3.RELEASE/reference/htmlsingle#jc-oauth2login-completely-override-autoconfiguration) from Spring docs
 -   (Deprecated) [Spring Boot and OAuth2](https://spring.io/guides/tutorials/spring-boot-oauth2/) tutorial
--   [Spring Boot's OAuth2 Client](https:/docs.spring.io/spring-boot/docs/current/reference/html/boot-features-security.html#boot-features-security-oauth2-client) from Spring docs
+-   [Spring Boot's OAuth2 Client](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-security.html#boot-features-security-oauth2-client) from Spring docs
 -   ['cannot be null' errors in Spring Security 5](https://stackoverflow.com/questions/49315552/authorizationgranttype-cannot-be-null-in-spring-security-5-oauth-client-and-spri)
 
 A lesson learned: searching specifically for Spring Security 5's OAuth2 implementation is near impossible since you always end up getting results for the older "Spring Security OAuth" 2.x implementation, even if you put a time restriction on results such as "within last year".
